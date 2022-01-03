@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Portfolio</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://interior-consultant-master-yure.netlify.app/">
+    <a href="https://portfolio-master-yure.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://interior-consultant-master-yure.netlify.app/">
+    <a href="https://portfolio-master-yure.netlify.app/">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+    <a href="https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt">
       Challenge
     </a>
   </h3>
@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/yuneumann/interior-consultant-master/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/yuneumann/portfolio-master/main/screenshot.png)
 
 This is a solution from the challenge, where you should create a create a page following the given design, while making it responsive.
 
@@ -48,4 +48,4 @@ The page was built with basic HTML, CSS and Javascript.
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) was to build an application to complete the given user stories.
