@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: gainsboro;
+}
+div{
+    background: whitesmoke;
+    border-radius: 12px;
+}
+section{
+    margin: 2rem auto;
+    display: flex;
+    width: 80%;
+}
+.section-top{
+    gap: 1rem;
+}
+.top-desc{
+    padding: .5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.desc-address div{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.material-icons, .fa-github{
+    font-size: 20px;
+    width: 20px;
+}
+.personal-info{
+    display: flex;
+    justify-content: space-between;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+.top-img{
+    height: fit-content;
+}
+.top-img img{
+    width: 200px;
+    border-radius: 12px;
+}
+
+
+.section-bot{
+    gap: 2rem;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 30%;
+    background: gainsboro;
+    gap: 1rem;
+}
+.section-skills, .section-hobbies{
+    padding: .5rem;
+}
+
+.skills{
+    display: flex;
+    gap: 1rem;
+}
+.skill-names, .skill-levels{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skill-levels{
+    width: 100%;
+    gap: .2rem;
+}
+.level{
+    padding: 0;
+    height: 100%;
+    background-color: rgba(104, 174, 177, 0.507);
+    display: flex;
+    align-items: center;
+}
+.current{
+    padding: 0;
+    height: 15px;
+    background-color: rgba(0, 139, 139, 0.664);
+}
+.level .current{
+    width: 75%;
+}
+.level:nth-child(3) .current{
+    width: 60%;
+}
+.hobbie{
+    margin-bottom: 2rem;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background: gainsboro;
+    gap: 1rem;
+}
+.projects-tags{
+    padding: .5rem;
+}
+button{
+    padding: .3rem;
+    border: 2px solid gainsboro;
+    border-radius: 12px;
+    background: whitesmoke;
+    cursor: pointer;
+    transition: border-color ease .8s;
+}
+.projects{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem 0;
+    background: gainsboro;
+}
+.project-card{
+    padding: .5rem;
+    max-width: 31%;
+    
+}
+.css, .js{
+    opacity: 1;
+    transition: opacity ease-in-out 1s;
+}
+.project-card img, .hobbie img{
+    aspect-ratio: 16/9;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+h1, p, a, button{
+    font-family: Poppins;
+    color: rgb(70, 69, 69);
+}
+h1{
+   font-size: 36px; 
+}
+p, a{
+    font-size: 16px;
+}
+a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: cadetblue;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom ease .5s;
+}
+a:hover{
+    border-bottom: 1px solid rgb(177, 174, 174);
+}
+.orange{
+    color: rgb(224, 120, 22);
+}
+.blue{
+    color: rgb(130, 174, 192);
+}
+.yellow{
+    color: rgb(223, 181, 46);
+}
+.upper{
+    text-transform: uppercase;
+}
+.title{
+    font-weight: 500;
+    padding-bottom: .5rem;
+}
+.section-title{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.author{
+    background-color: gainsboro;
+    bottom: 0%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+}
+.author a{
+    margin: 0;
+}
+@media(max-width: 1264px){
+    .project-card{
+        max-width: 45%;
+    }
+    @media(max-width: 1024px){
+        section{
+            width: 90%;
+        }
+        .personal-info{
+            flex-direction: column;            
+        }
+        .desc-address{
+            margin: 1rem 0;
+        }
+        @media(max-width:900px){
+            .section-bot, .section-top{
+                gap: .5rem;
+            }
+            .skills{
+                gap: .2rem;
+            }
+            .skills p{
+                font-size: 11px;
+            }
+            h1{
+                font-size: 28px;
+            }
+            @media(max-width: 700px){
+                
+                .top-img img{
+                    width: 150px;
+                }
+                .left{
+                    width: 40%;
+                }
+                .right{
+                    width: 60%;
+                }
+                .project-card{
+                    max-width: 100%;
+                }
+                p, a{
+                    font-size: 12px;
+                }
+                @media(max-width: 400px){
+                    .top-img img{
+                        width: 100px;
+                    }
+                    p{
+                        font-size: 9px;
+                    }
+                    .material-icons, .fa-github{
+                        font-size: 11px;
+                        width: 10px;
+                    }
+                }
+            }  
+        }         
+    }    
+}

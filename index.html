@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+    <link rel="icon" href="devchallenges.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@300;400;700&family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>YFNC</title>
+
+  </head>
+  
+  <body>
+
+    <section class="section-top">
+
+      <div class="top-img">
+        <img src="qrcode_github.com.png" alt="">
+      </div>
+
+      <div class="top-desc">
+        <div class="personal-info">
+
+          <div class="desc-name">
+            <h1 class="upper">Yure F. N. Coelho</h1>
+            <p>Front-end Developer/Student</p>
+          </div>
+
+          <div class="desc-address">
+            <div>
+              <i class="material-icons">email</i>
+              <p>yuneumann@hotmail.com</p>
+            </div>
+            <div>
+              <i class="fa fa-github"></i>
+              <a target="_blank" href="https://github.com/yuneumann">Github</a>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="bio">
+          <p>
+            I am a self-motivated, mostly self-taught developer, 
+            who is willing to learn and create outstanding UI applications.
+          </p>
+        </div>       
+      </div>
+    </section>
+
+    <section class="section-bot">
+
+      <div class="left">
+        <div class="section-skills">
+          <p class="section-title">Skills</p>
+          <div class="skills">
+            <div class="skill-names">
+              <div><p>HTML</p></div>
+              <div><p>CSS</p></div>
+              <div><p>Javascript</p></div>
+            </div>
+            <div class="skill-levels">
+              <div class="level"><div class="current"></div></div>
+              <div class="level"><div class="current"></div></div>
+              <div class="level"><div class="current"></div></div>
+            </div>
+          </div>          
+        </div>
+        
+        <div class="section-hobbies">
+          <p class="section-title">Hobbies</p>
+          <div class="hobbie">
+            <img src="gaming.jpg" alt="">
+            <p class="title">Gaming</p>
+            <p>Quisque feugiat malesuada molestie.</p>
+          </div>
+          <div class="hobbie">
+            <img src="guitar.jpg" alt="">
+            <p class="title">Guitar</p>
+            <p>Quisque feugiat malesuada molestie.</p>
+          </div>
+          <div class="hobbie">
+            <img src="cooking.jfif" alt="">
+            <p class="title">Cooking</p>
+            <p>Quisque feugiat malesuada molestie.</p>
+          </div>
+        </div>        
+      </div>
+      
+      <div class="right">
+        <div class="projects-tags">
+          <p class="section-title">Projects</p>
+          <div class="tags">
+            <button id="btn1" onclick="displayTag(1)">CSS</button>
+            <button id="btn2" onclick="displayTag(2)">Javascript</button>
+          </div>
+        </div>
+        
+        <div class="projects">
+          <div class="project-card css js">
+            <img src="screenshot-404.png" alt="">
+            <p> <span class="orange">#HTML</span> <span class="blue">#CSS</span> <span class="yellow">#Javascript</span> </p>
+            <p class="upper title">404 Not Found page</p>
+            <p>In this project, I work with HTML, CSS and Javascript to create a responsive page. The design is from devchallenge.io</p>
+            <div class="sources">
+              <a target="_blank" href="https://404-not-found-page-challenge-yure.netlify.app/">Demo</a>
+              <a target="_blank" href="https://github.com/yuneumann/404-Not-Found-page">Code</a>
+            </div>
+          </div>
+
+          <div class="project-card css">
+            <img src="screenshot-myteam.png" alt="">
+            <p><span class="orange">#HTML</span> <span class="blue">#CSS</span></p>
+            <p class="upper title">My team page</p>
+            <p>In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io</p>
+            <div class="sources">
+              <a target="_blank" href="https://my-team-page-yure.netlify.app/">Demo</a>
+              <a target="_blank" href="https://github.com/yuneumann/my-team-page">Code</a>
+            </div>
+          </div>
+
+          <div class="project-card css js">
+            <img src="screenshot-interior.png" alt="">
+            <p><span class="orange">#HTML</span> <span class="blue">#CSS</span> <span class="yellow">#Javascript</span></p>
+            <p class="upper title">Interior consultant</p>
+            <p>In this project, I work with HTML, CSS and Javascript to create a responsive page. The design is from devchallenge.io</p>
+            <div class="sources">
+              <a target="_blank" href="https://interior-consultant-master-yure.netlify.app/">Demo</a>
+              <a target="_blank" href="https://github.com/yuneumann/interior-consultant-master/">Code</a>
+            </div>
+          </div>
+
+          <div class="project-card css">
+            <img src="screenshot-recipe.png" alt="">
+            <p><span class="orange">#HTML</span> <span class="blue">#CSS</span></p>
+            <p class="upper title">Recipe page</p>
+            <p>In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io</p>
+            <div class="sources">
+              <a target="_blank" href="https://recipe-page-master-yure.netlify.app/">Demo</a>
+              <a target="_blank" href="https://github.com/yuneumann/recipe-page-master">Code</a>
+            </div>
+          </div>
+
+          <div class="project-card css">
+            <img src="screenshot-gallery.png" alt="">
+            <p><span class="orange">#HTML</span> <span class="blue">#CSS</span></p>
+            <p class="upper title">My gallery</p>
+            <p>In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io</p>
+            <div class="sources">
+              <a target="_blank" href="https://my-gallery-master-yure.netlify.app/">Demo</a>
+              <a target="_blank" href="https://github.com/yuneumann/my-gallery-master">Code</a>
+            </div>
+          </div>
+
+          <div class="project-card css">
+            <img src="screenshot-checkout.png" alt="">
+            <p><span class="orange">#HTML</span> <span class="blue">#CSS</span></p>
+            <p class="upper title">Checkout page</p>
+            <p>In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io</p>
+            <div class="sources">
+              <a target="_blank" href="https://checkout-page-master-yure.netlify.app/">Demo</a>
+              <a target="_blank" href="https://github.com/yuneumann/checkout-page-master">Code</a>
+            </div>
+          </div>
+
+          <div class="project-card css js">
+            <img src="screenshot-edie.png" alt="">
+            <p><span class="orange">#HTML</span> <span class="blue">#CSS</span> <span class="yellow">#Javascript</span></p>
+            <p class="upper title">Edie Homepage</p>
+            <p>In this project, I work with HTML, CSS and Javascript to create a responsive page. The design is from devchallenge.io</p>
+            <div class="sources">
+              <a target="_blank" href="https://edie-homepage-master-yure.netlify.app/">Demo</a>
+              <a target="_blank" href="https://github.com/yuneumann/edie-homepage-master">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+  <footer>
+    <div class="author">
+      <p>created by <a href="https://devchallenges.io/portfolio/yuneumann">Yure Neumann</a> - devChallenges.io</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</html>
