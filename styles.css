@@ -50,8 +50,6 @@ section{
     width: 200px;
     border-radius: 12px;
 }
-
-
 .section-bot{
     gap: 2rem;
 }
@@ -80,10 +78,11 @@ section{
 .skill-levels{
     width: 100%;
     gap: .2rem;
+    justify-content: space-around;
 }
 .level{
     padding: 0;
-    height: 100%;
+    height: 15px;
     background-color: rgba(104, 174, 177, 0.507);
     display: flex;
     align-items: center;
@@ -131,13 +130,18 @@ button{
     background: gainsboro;
 }
 .project-card{
+    display: flex;
+    flex-direction: column;
     padding: .5rem;
-    max-width: 31%;
-    
+    max-width: 30%; 
+    position: relative; 
 }
-.css, .js{
-    opacity: 1;
-    transition: opacity ease-in-out 1s;
+.project-card p{
+    margin-bottom: 1.5rem;
+}
+.sources{
+    position: absolute;
+    bottom: 1%;
 }
 .project-card img, .hobbie img{
     aspect-ratio: 16/9;
@@ -159,7 +163,7 @@ p, a{
 a{
     margin-right: 1rem;
     text-decoration: none;
-    color: cadetblue;
+    color: rgb(37, 92, 175);
     border-bottom: 1px solid transparent;
     transition: border-bottom ease .5s;
 }
@@ -200,6 +204,13 @@ a:hover{
 .author a{
     margin: 0;
 }
+
+.top-img:hover, .top-desc:hover,
+.section-skills:hover, .section-hobbies:hover,
+.projects-tags:hover, .project-card:hover{
+    box-shadow: 0px 0px 13px 1px rgba(20, 77, 82, 0.267);
+}
+
 @media(max-width: 1264px){
     .project-card{
         max-width: 45%;
@@ -227,8 +238,7 @@ a:hover{
             h1{
                 font-size: 28px;
             }
-            @media(max-width: 700px){
-                
+            @media(max-width: 700px){                
                 .top-img img{
                     width: 150px;
                 }
